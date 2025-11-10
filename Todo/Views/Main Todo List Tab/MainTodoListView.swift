@@ -60,7 +60,7 @@ struct MainTodoListView: View {
     }
     
     private func deleteTodos(at offsets: IndexSet) {
-        for index in offsets {
+        for _ in offsets {
             todos.remove(atOffsets: offsets)
         }
     }
